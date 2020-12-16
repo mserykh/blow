@@ -1,0 +1,105 @@
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.wrapper {
+  height: 100vh;
+  width: 93.75%;
+  background: center / cover no-repeat url("../assets/images/group.png");
+  margin-left: 6.25%;
+}
+
+.header {
+  height: 120px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__logo {
+  font-weight: 900;
+  font-size: 40px;
+  margin-left: 50px;
+}
+
+.header__navbar {
+}
+
+.header__menu-list {
+  display: flex;
+  margin-right: 50px;
+}
+
+.header__menu-item {
+  margin: 0px 15px;
+}
+
+.header__menu-item a {
+  display: flex;
+  padding: 10px 20px;
+  border-radius: 27px;
+
+  text-decoration: none;
+  color: #000;
+  font-size: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.header__menu-item a:hover {
+  background-color: #000;
+
+  color: #fff;
+}
+
+.explore {
+  text-align: center;
+  
+}
+
+.explore__link {
+  display: inline-block;
+  padding: 15px 55px;
+  border-radius: 27px;
+  background-color: #000;
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+  text-transform: uppercase;
+  margin-top: 65vh;
+  box-shadow: 24px 50px 36px 7px rgba(0, 0, 0, 0.5);
+  letter-spacing: 1px;
+}
+
+.sidebar {
+    position: fixed;
+    width: 6.25%;
+    left: 0;
+    top: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    
+}
+
+
+.sidebar__text {
+    transform: rotate(270deg);
+    text-transform: uppercase;
+    font-weight: 300;
+    white-space: nowrap;
+    position: absolute;
+    top: 45%;
+
+}
+
+.sidebar__text-strong {
+    font-weight: 900;
+}
+
+.sidebar svg {
+ margin-bottom: 50px;
+ opacity: 0.75;
+}
